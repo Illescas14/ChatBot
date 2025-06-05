@@ -1,16 +1,44 @@
-# chatbot
+# 🤖 ChatBot Médico Offline - Flutter
 
-A new Flutter project.
+Este es un proyecto desarrollado como parte de una actividad académica.  
+Consiste en un *chatbot médico offline* creado con *Flutter* y *Dart*, que permite a los usuarios interactuar con un asistente virtual para agendar citas médicas, resolver dudas básicas y simular una conversación sencilla sin necesidad de conexión a internet.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 👨‍💻 Autor
 
-A few resources to get you started if this is your first Flutter project:
+*Omar Illescas Escobedo*  
+Estudiante de *Ingeniería en Sistemas Computacionales*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Características principales
+
+- Chat en tiempo real entre el usuario y el bot.
+- Funciona completamente offline.
+- Respuestas predefinidas según palabras clave.
+- Interfaz sencilla y moderna usando Material Design 3.
+- Auto-scroll hacia el último mensaje.
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- [Flutter](https://flutter.dev/) 🐦
+- Dart
+- Material Design 3
+
+---
+
+## 🧠 Lógica del chatbot
+
+El bot reconoce palabras clave como:
+
+| Entrada del usuario     | Respuesta del bot |
+|-------------------------|-------------------|
+| hola                 | ¡Hola! ¿En qué puedo ayudarte hoy con tus citas médicas? |
+| cita                 | Para agendar una cita necesito tu nombre, fecha y hora preferida. |
+| gracias              | ¡De nada! Estoy aquí para ayudarte. |
+| Otro mensaje           | Lo siento, no entendí tu mensaje. ¿Podrías reformularlo? |
+
+---
